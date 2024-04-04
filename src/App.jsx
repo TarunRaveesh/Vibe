@@ -9,7 +9,6 @@ import "./styles/App.css";
 import UpcomingEvents from "./components/UpcomingEvents";
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "./components/Footer";
-import Favorites from "./components/Favorites";
 
 const App = () => {
   return (
@@ -20,13 +19,11 @@ const App = () => {
           <SignInButton />
         </div>
         <br />
-        <SearchBar /> <br />
-        <Favorites /> <br />
-        <br />
+        <SearchBar />
         <Menu />
         <div className="banner-container">
           <img
-            src="./src/assets/banner.jpg"
+            src="https://github.com/TarunRaveesh/Vibe/blob/master/src/assets/Banner.jpg?raw=true"
             alt="Banner Image"
             className="banner-image"
           />

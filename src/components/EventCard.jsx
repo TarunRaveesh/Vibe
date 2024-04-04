@@ -45,3 +45,5 @@ function EventCard({ eventName, cityName, date, weather, distanceKm, imgUrl }) {
 }
 
 export default EventCard;
+
+
