@@ -23,7 +23,7 @@ const App = () => {
         <Menu />
         <div className="banner-container">
           <img
-            src="https://github.com/TarunRaveesh/Vibe/blob/master/src/assets/Banner.jpg?raw=true"
+            src="/Banner.svg"
             alt="Banner Image"
             className="banner-image"
           />
