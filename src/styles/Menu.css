@@ -1,0 +1,51 @@
+/* Menu.css */
+.category-menu {
+  background-color: #ffffff; /* A deep blue-gray tone */
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.category-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-menu li {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 50px; /* Adjusted spacing */
+}
+
+.category-menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.category-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .category-menu li {
+    margin: 0 10px; /* Reduced spacing on tablets */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .category-menu {
+    white-space: normal; /* Allow wrapping on small screens */
+    overflow-x: hidden; /* Hide horizontal scrolling */
+  }
+
+  .category-menu li {
+    display: block; /* Stack items vertically */
+    margin: 10px 0;
+  }
+}

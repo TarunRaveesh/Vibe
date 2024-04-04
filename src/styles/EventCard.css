@@ -1,0 +1,39 @@
+.event-card {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #b0babf; /* Stroke/border color */
+  width: 250px;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 5px; /* Adding some margin for spacing */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* A subtle shadow effect */
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card img {
+  max-width: auto;
+  border-radius: 5px 5px 0 0; /* Top corners rounded */
+}
+
+.event-info {
+  padding: 10px 20px 12px 20px;
+}
+
+.event-info h5 {
+  color: #1e2022; /* Heading color */
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.event-info p {
+  /* Assuming your subtitles are within p tags */
+  color: #989090; /* Subtitle color */
+}
+
+.event-card-wrapper {
+  margin-bottom: 20px;
+}
