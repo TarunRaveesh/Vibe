@@ -1,6 +1,6 @@
 # Vibe
 
-Vibe is a front-end project for displaying upcoming and recommended events. It provides a user-friendly interface to browse and discover exciting events happening around.
+Vibe is a front-end project for displaying upcoming and recommended events. It provides a user-friendly interface to browse and discover exciting events happening around. It's made using ReactJS.
 
 ## Key Features
 
